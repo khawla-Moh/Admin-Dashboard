@@ -17,9 +17,9 @@ background: #fff;
 
 /*  */
 .page{
-  background: url(/asset/image/bg.png) lightgray 50% / cover no-repeat;
-  background: #6bacff;
-  border-top-right-radius: 60px;
+  background: url(../image/bg.png) ;
+  border-radius: 0px 101px 0px 0px;
+  background: linear-gradient(180deg, #0575E6 0%, #00237B 100%);
   
   margin-right : 15rem;
 }

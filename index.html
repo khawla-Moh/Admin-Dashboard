@@ -5,7 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 	<title>Dashboard </title>
-	    <!-- CSS files -->
+
+	    <!-- EXTERENAL LIBRARY -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400&family=Tajawal:wght@200;300;400&display=swap" rel="stylesheet"><link
+		rel="stylesheet"
+		href="https://fonts.google.com/specimen/Alkalami?preview.text=%D9%85%D9%87%D8%A7%D9%85%D9%8A&preview.text_type=custom&subset=arabic"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+		/>
+		<!-- END EXTERENAL LIBRARY -->
+	
+	<!-- CSS files -->
     <link href="asset/dist/css/tabler.min.css?1684106062" rel="stylesheet"/>
     <link href="asset/dist/css/tabler-flags.min.css?1684106062" rel="stylesheet"/>
     <link href="asset/dist/css/tabler-payments.min.css?1684106062" rel="stylesheet"/>
@@ -28,7 +42,7 @@
     <div class="page ">
       <div class="container">
       <!-- Navbar -->
-	  <nav class="navbar navbar-expand mt-2 rounded-5 " style="background: #6bacff;">
+	  <nav class="navbar navbar-expand mt-2 pe-5 rounded-5 " style="background: none;">
         <span><img src="asset/image/menu1.svg" class="mt-3" width="20" alt=""></span>
         <a class="navbar-brand pe-3 text-white" href="#">لوحة التحكم</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +54,6 @@
           <form class="form-inline  my-lg-0">
             <div class="d-flex justify-content-end bg-white rounded-3">
             <span class=" pt- pe-2 ps-1 my-1" style="border-left: 1px solid rgb(219, 207, 207);  ">
-				<img src="asset/image/search.png" width="16" alt="">
 				<i class="fa fa-search border-right"></i> </span>
             <input class="form-control mr-sm-2 border-0" type="search" placeholder="البحث.." aria-label="Search">
           </div>
@@ -49,82 +62,70 @@
         </div>
       </nav>
     
-        <!-- 
-           <header class="navbar  bg-page " >
-            <div class="container mt-3">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-             <div class=" " dir="rtl">
-              <h2 class="text-white">لوحة التحكم</h2>
-            </div>
-            </div>
-          </header>
-        -->
-      <!-- SECTION Date -->
-      <div class="date rounded mt-1 mx-4 pe-5  " dir="rtl">
-      
-        <div class="row  d-flex justify-content-between">
-            <div class="col-3">
-              <h2 class="bold fs-1">اليوم  
-              </h2>
-              <div class="row pb-2">
-               <span> الجمعة 15,2024|6:00PM</span>
-              </div>
-            
-            </div>   
-            <div class="col-3 pt-4 ps-4">
-              <div class="nav-item dropdown d-none d-md-flex justify-content-end ">
-                <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1" aria-label="Show notifications">
-                  <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" /><path d="M9 17v1a3 3 0 0 0 6 0v-1" /></svg>
-                  <span class="badge bg-red"></span>
-                </a>
-                </div>
-            
-            </div> 
-        </div>
-      </div>
-      <!-- SECTION Date -->
+     <!-- SECTION Date -->
+				<div class="date rounded mt-1 mx-5   "  dir="rtl">
+				
+					<div class="row  d-flex justify-content-between">
+						<div class="col-3">
+						<h2 class="fw-bold fs-1 pe-3">اليوم  
+						</h2>
+						<div class="row pb-2 pe-3">
+						<span class="fw-bold"> الجمعة مارس<span>18 2024 12:00 PM</span> </span>
+						<span></span>
+						</div>
+						
+						</div>   
+						<div class="col-3 pt-4 ps-4">
+						<div class="nav-item dropdown d-none d-md-flex justify-content-end ">
+							<a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1" aria-label="Show notifications">
+							<!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+							<img src="asset/image/notification.png" width="20" alt="" srcset="">
+							<span class="badge bg-red"></span>
+							</a>
+							</div>
+						
+						</div> 
+					</div>
+				</div>
+    <!-- SECTION Date -->
 
-      <!-- start section statistics -->
-       <div class="statistics  me-5 mt-3   ">
-      <div class="row me-5 pe-5 ">
-        <div class="col-lg-4 ">
-          <div class="card rounded-3 py-4 px-5" style="width: 14rem;">
-               <h2 class="d-flex justify-content-center">التحديات</h2>
-               <div class="card-body d-flex justify-content-center">
-                <span class="fw-bold fs-2 px-4 py-3 rounded-3">3</span>
-               </div>
-          </div>
-        </div>
-        <div class="col-lg-4   ">
-          <div class="card rounded-3 py-2 px-5" style="width: 14rem;">
-               <h2 class="d-flex justify-content-center">التحديات</h2>
-               <div class="card-body d-flex justify-content-center">
-                <span class="fw-bold fs-2 px-4 py-3 rounded-3">3</span>
-               </div>
-          </div>
-        </div>
-    
-		<div class="col-lg-4   ">
-          <div class="card rounded-3 py-4 px-5" style="width: 14rem;">
-               <h2 class="d-flex justify-content-center">التحديات</h2>
-               <div class="card-body d-flex justify-content-center">
-                <span class="fw-bold fs-2 px-4 py-3 rounded-3">3</span>
-               </div>
-          </div>
-        </div>
-       
-      
-      </div>
+    <!-- start section statistics -->
+       <div class="statistics  me-5 mt-3  " style="width: 90%;">
+			<div class="row me-5 pe-5  d-flex justify-content-center">
+				<div class="col-lg-3 ">
+				<div class="card rounded-3 py-4 px-5" style="width: 14rem;">
+					<h2 class="d-flex justify-content-center">التحديات</h2>
+					<div class="card-body d-flex justify-content-center">
+						<span class="fw-bold fs-2 px-4 py-3 rounded-3">3</span>
+					</div>
+				</div>
+				</div>
+		     	<div class="col-lg-3 ">
+					<div class="card rounded-3 py-4 px-5" style="width: 14rem;">
+						<h2 class="d-flex justify-content-center">الكؤوس</h2>
+						<div class="card-body d-flex justify-content-center">
+						<span class="fw-bold fs-2 px-4 py-3 rounded-3">3</span>
+						</div>
+					</div>
+			    </div>
+			<div class="col-lg-3 ">
+				<div class="card rounded-3 py-4 px-5" style="width: 14rem;">
+					<h2 class="d-flex justify-content-center">النقاط</h2>
+					<div class="card-body d-flex justify-content-center">
+					<span class="fw-bold fs-2 px-4 py-3 rounded-3">3</span>
+					</div>
+				</div>
+			</div>
+			
+		
+		</div>
        </div> 
       <!-- end section statistics -->
 
 
       <!-- start last activities -->
-       <div class="activities mt-3 pt-3 mx-4">
-        <div class="container rounded-3 ">
+       <div class="activities ">
+        <div class="container rounded-3 mt-5  " style="width: 90%;">
           <h2 class="pt-2 ">اخر النشاطات</h2>
           <div class="row">
             <div class="nav-item ">
