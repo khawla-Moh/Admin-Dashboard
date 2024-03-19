@@ -1,18 +1,15 @@
-:root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@font-face {
+  font-family: "Blabeloo  MagdySoliman";
+  src: url("../font/Kelma_\ MagdySoliman\ Regular.ttf")}
+@font-face {
+  font-family: "Air Strip Arabic";
+  src: url("../font/Air\ Strip\ Arabic.ttf"); }
 
-  --font-primary: "Inter", sans-serif;
-  --font-secondary: "Cardo", sans-serif;
-  --main-color: #000000;
-  --color-primary: #fafafa;
-  --color-secondary: rgba(255, 255, 255, 0.6);
-  --color-btn: #d49da6;
-}
 body {
-  font-family: var(--font-default);
-background: #fff;
+  font-family:"Air Strip Arabic";
+  font-weight: 400;
+  font-style: normal;
+  background: #fff;
 }
 
 /*  */
@@ -21,7 +18,7 @@ background: #fff;
   
   background: url(../image/bg.png) #00237B;
   
-  background-position:  top;
+  background-position:  center 20px top   ;
 
   border-radius: 0px 101px 0px 0px;
   margin-right : 15rem;
@@ -59,11 +56,12 @@ color: #2684ff;
 
 /*  */
 .card{
-  background: #e1eefe;
+  background: #fff;
 }
 .card span{
-background: #d4e6ff;
-
+border-radius: 38px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 /*  */
 
@@ -118,5 +116,10 @@ border:none !important;
 /*  */
 
 
-/* Start   */
-/* End  */
+/* Start  setting */
+.header-w
+{
+  color: #2684FF;
+  
+}
+/* End   setting*/
