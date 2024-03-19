@@ -17,7 +17,8 @@ body {
   font-family: "Blabeloo  MagdySoliman";
   font-size: 15px;
   margin: 0;
- }
+  background: #fff;
+}
 
 
 p, h1, h2, h3, h4, h5, h6, ul {
@@ -53,9 +54,18 @@ a {
     width: 30.1%; }
 
 .image-holder {
+  border-radius: 0px 101px 0px 0px;  
+  /* background: url("../image/createacount/Untitled\ design\(2\).png") no-repeat   ;
+  background-size: 100%;
+  background-position: top 190px;  
+    */
     border-radius: 0px 101px 0px 0px;
-    background: linear-gradient(180deg, #0575E6 0%, #00237B 100%);/* background: url("../images/registration-form-8.jpg") no-repeat;
-  background-size: cover;  */}
+    background: linear-gradient(180deg, #0575E6 0%, #00237B 100%);
+    background: url("../image/createacount/Ellipse.png") ,url(../image/createacount/Ellipse.png)  #00237B;
+    
+    background-position:  bottom -90px left -290px,bottom -150px left -140px  ;
+    background-repeat: no-repeat;
+     }
 
 
 .image-holder img {
@@ -127,28 +137,6 @@ label {
     transform: scale(1);
 }
 
-.socials {
-  text-align: center;
-  margin-top: 59px; }
-
-.socials-icon {
-  display: inline-flex;
-  width: 41px;
-  height: 41px;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 19px;
-  color: #fff;
-  transition: all 0.5s ease;
-  margin-right: 19px; }
-  .socials-icon:hover {
-    background: #fff;
-    border: 1px solid transparent;
-    color: #ff97a4; }
-  .socials-icon:last-child {
-    margin-right: 0; }
 
 p {
   font-family: "Muli-SemiBold";
@@ -218,15 +206,4 @@ input[type=number]:focus,
 [type=tel].form-control:focus, 
 [contenteditable].form-control:focus {
   box-shadow: inset 0 -1px 0 #ddd;
-}
-
-.pos
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    width: 100px;
-    height: 100px;
 }

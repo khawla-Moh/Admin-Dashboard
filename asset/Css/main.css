@@ -17,11 +17,16 @@ background: #fff;
 
 /*  */
 .page{
-  background: url(../image/bg.png) ;
-  border-radius: 0px 101px 0px 0px;
   background: linear-gradient(180deg, #0575E6 0%, #00237B 100%);
   
+  background: url(../image/bg.png) #00237B;
+  
+  background-position:  top;
+
+  border-radius: 0px 101px 0px 0px;
   margin-right : 15rem;
+
+
 }
 .bg-page{
   background: #6bacff;
