@@ -117,15 +117,15 @@ label {
   height: 40px;
   padding: 0 19px;
   font-size: 17px; }
-  .form-control.error {
-    border-color: #e4485d !important;
-    background: url("../image/createacount/error.png") no-repeat center right 19px; }
-  .form-control.valid {
-    background: url("../image/createacount/valid.png") no-repeat center right 19px; }
-
+  
+  
+  
+  
 .form-error {
-  margin-top: 10px;
-  display:block; }
+  margin-top: 40px;
+  position: fixed;
+   color: red;
+}
 
  .btn {
     background: #0575E6;

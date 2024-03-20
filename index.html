@@ -306,6 +306,7 @@
 		  </aside>
 	   
        </div>
+
       <div class="modal modal-blur fade" id="modal-report" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
@@ -419,9 +420,36 @@
 	<script src="asset/js/main.js"></script>   
     <script src="asset/js/all.min.js"></script>   
     <script src="asset/js/bootstrap.bundle.min.js"></script>  
- 
-   
- 
+    <script src="asset/js/jquery-3.3.1.min.js"></script>
+	<!-- <script>
+		$(document).ready(function() {
+  $('.nav-link').click(function() {
+    // Remove 'active' class from all links
+    $('.nav-link').removeClass('active');
+    
+    // Add 'active' class to the clicked link
+    $(this).addClass('active');
+  });
+});
+	</script>
+    -->
+ <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  navLinks.forEach(function(navLink) {
+    navLink.addEventListener("click", function(event) {
+      // Remove 'active' class from all nav links
+      navLinks.forEach(function(link) {
+        link.classList.remove("active");
+      });
+
+      // Add 'active' class to the clicked nav link
+      navLink.classList.add("active");
+    });
+  });
+});
+ </script>
  
  
  

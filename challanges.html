@@ -154,7 +154,7 @@
 
 
 
-      <!-- start Levels -->
+      <!-- start challanges -->
        <div class="levels  mt-2 mx-4">
         <div class="container rounded-3 ">
           <div class="row">
@@ -354,9 +354,24 @@
     <!-- Tabler Core -->
     <script src="asset/dist/js/tabler.min.js?1684106062" defer></script>
     <script src="asset/dist/js/demo.min.js?1684106062" defer></script>
-	<script src="asset/js/main.js"></script>   
+	  <script src="asset/js/main.js"></script>   
     <script src="asset/js/all.min.js"></script>   
     <script src="asset/js/bootstrap.bundle.min.js"></script>  
+    <script src="asset/js/jquery-3.3.1.min.js"></script>
+    
+	<script>
+		$(document).ready(function() {
+  $('.nav-link').click(function() {
+    // Remove 'active' class from all links
+    $('.nav-link').removeClass('active');
+    
+    // Add 'active' class to the clicked link
+    $(this).addClass('active');
+  });
+});
+	</script>
+   
+ 
  
   </body>
 </html>

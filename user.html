@@ -97,8 +97,8 @@
                                 <span >  <img src="asset/image/addprofile.png" class="pe-2" > </span>
                                 </button>
                       <!-- Modal -->
-                                <div class="modal  fade ms-5 ps-5 " style="width: 35%; " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                  <div class="modal-dialog modal-dialog-centered "    >
+                                <div class="modal  fade ms-5 ps-5 " style="width: 30%;  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered "     >
                                     <div class="modal-content rounded-3 " style="border: 2px solid #6bacff;">
                                       <div class="modal-header " >
                                         <span class="d-flex align-items-center me-5">
@@ -253,8 +253,8 @@
       <!-- End User -->
 
     </div>
-    </div>
 
+  </div>
 
     <!-- Sidebar -->
         <aside class=" navbar-vertical navbar-right navbar-expand">
@@ -333,6 +333,7 @@
             </div>
           </div>
         </aside>
+        
        </div>
     <!-- Libs JS -->
     <script src="asset/dist/libs/apexcharts/dist/apexcharts.min.js?1684106062" defer></script>
@@ -344,7 +345,38 @@
     <script src="asset/dist/js/demo.min.js?1684106062" defer></script>
 	  <script src="asset/js/main.js"></script>   
     <script src="asset/js/all.min.js"></script>   
-    <script src="asset/js/bootstrap.bundle.min.js"></script>  
+    <script src="asset/js/bootstrap.bundle.min.js"></script> 
+    <script src="asset/js/jquery-3.3.1.min.js"></script>
+    
+	<!-- <script>
+		$(document).ready(function() {
+  $('.nav-link').click(function() {
+    // Remove 'active' class from all links
+    $('.nav-link').removeClass('active');
+    
+    // Add 'active' class to the clicked link
+    $(this).addClass('active');
+  });
+});
+	</script>
+   --> 
+  <script>
+   document.addEventListener("DOMContentLoaded", function() {
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  navLinks.forEach(function(navLink) {
+    navLink.addEventListener("click", function(event) {
+      // Remove 'active' class from all nav links
+      navLinks.forEach(function(link) {
+        link.classList.remove("active");
+      });
+
+      // Add 'active' class to the clicked nav link
+      navLink.classList.add("active");
+    });
+  });
+});
+  </script>
     
   </body>
 </html>
