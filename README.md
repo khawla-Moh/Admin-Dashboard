@@ -1,5 +1,10 @@
 # Admin-Dashboard
 
+
+###Demo
+![project demo](Dashboard.png)
+
+
 Overview
 This repository contains an Admin Dashboard designed for an Android application aimed at helping children learn Arabic letters. Built using HTML, CSS, and Bootstrap, The dashboard is designed to provide an intuitive interface for managing various aspects of an application,including challenges, user accounts, settings, level, and sign-in functionalities.
 Features
